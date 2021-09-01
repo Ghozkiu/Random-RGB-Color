@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    transition: background-color 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(32, 32, 32, 0.6);
+    border-radius: 1rem;
+    width: 28rem;
+    height: 10rem;
+}
+
+.container span {
+    display: block;
+    text-align: center;
+    margin: auto;
+    display: inline-flex;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container button {
+    text-align: center;
+    display: block;
+    font-size: 0.8rem;
+    position: relative;
+    margin: 0.6rem auto;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 35%;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.6s cubic-bezier(0.85, 0, 0.15, 1), color 0.6s cubic-bezier(0.85, 0, 0.15, 1);
+}
+
+.container button:hover {
+    background-color: rgb(32, 32, 32, 0.6);
+    color: white;
+}
+.container button:active {
+    background-color: rgba(68, 68, 68, 0.6);
+    color: white;
+}
